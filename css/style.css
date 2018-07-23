@@ -1,0 +1,85 @@
+/* universal resets */
+
+h6{font-size: 14px;}
+h5{font-size: 16px;}
+h4{font-size: 18px;}
+h3{font-size: 20px;}
+h2{font-size: 22px;}
+h1{font-size: 24px;}
+
+h1 span, h2 span, h3 span, h4 span, h5 span {}
+
+p{font-size: 13px; text-align: left;}
+
+ul li {list-style: none;}
+
+a{outline: none; text-decoration: none;}
+a:hover{text-decoration: underline;}
+a img {border: 0; vertical-align: middle;}
+
+.clear {clear: both; margin: 0; padding: 0; height: 0;}
+.float_right {float: right;}
+.float_left {float: left;}
+
+input:focus {
+    outline: none;
+}
+
+table {border-collapse: collapse; padding: 0;}
+
+/* end ressets style */
+
+body {text-align: center; height: 100%; width: 100%; margin: 0; overflow: auto; padding: 0; background: #fff url(/img/bg.png); font: 13px/18px Verdana, sans-serif;}
+#page {color: #333; repeat-x; width: 100%; text-align: center; height: 100%; margin: 0;}
+#wrap {width: 1010px; text-align: center; height: 100%; margin: 10px auto 20px auto; position: relative; background: #fff; box-shadow: 0px 0px 20px #888;}
+
+/* footer */
+
+#footer {color: #000; border-top: 1px solid #ccc; font-size: 11px; margin: 0; padding: 3px 14px; text-align: left; margin: 0;}
+#footer a{color: #1B57B1;}
+
+/* header styles */
+
+#header{text-align: left; background: #fff; height: 114px; padding: 0px; vertical-align: middle; position: relative;}
+.logo {padding: 12px 0 0 20px; height: 100px; float: left;}
+.logo img {height: 100%; width: auto;}
+
+.slogan {font-family: Arial; font-size: 18px; line-height: 20px; font-weight: bold; color: #000; float: left; padding: 57px 0 0 10px;}
+
+.header-contacts-block {text-align: right; float: right; padding: 25px 25px 0 0;}
+.header-contacts-block span{color: #333;}
+.header-contacts-block .phone{font-size: 16px; line-height: 24px; color: #333;}
+.header-contacts-block .address{font-size: 13px;}
+
+/* end header */
+
+/* main styles */
+
+#main {background: #fff url(/img/bg.png); margin: 0; padding: 0; position: relative; width: 100%;}
+
+#main-menu {height: 32px; color: #333; position: relative; width: 100%; background: #fff; margin: 0 !important; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc;}
+#main-menu ul{display: block; float: left; text-align: left; header: 32px; width: 100%; margin: 0; padding: 0;}
+#main-menu ul li{display: block; float: left; height: 16px; margin: 8px 0; padding: 0 16px; border-left: 1px solid #ccc;}
+#main-menu ul li:first-child{border-left: none;}
+#main-menu ul li:first-child{border-left: none;}
+#main-menu ul li a {font-size: 12px; font-weight: bold; color: #333;}
+#main-menu ul li.active a {color: #aaa;}
+
+
+.bolder-text {padding: 10px; font-size: 16px; line-height: 22px; font-weight: bold; margin-top: 10px;}
+/* end main */
+
+
+.home-banner-table {}
+.home-banner-table td {padding: 5px;}
+.home-banner-table td a {position: relative; height: 250px; display: block;}
+.home-banner-table td a span{background: #333; color: #fff; height: 32px; line-height: 32px; font-size: 14px; opacity: 0.6; display: block; position: absolute; bottom: 0; left: 0; width: 100%;}
+.home-banner-table td a:hover span {opacity: 1;}
+.home-banner-table td a img {height: 100%; width: 100%;}
+
+.home-text {font-size: 13px; padding: 10px;}
+
+.image-gallery {width: 1000px; position: relative; margin: 0 0 0 7px;}
+.image-gallery-item {width: 240px; height: 180px; background: #000; margin: 3px; border: 1px solid #000; float: left; position: relative; overflow: hidden;}
+.image-gallery-item img {height: 100%;}
+.image-gallery-item:hover {border: 1px solid #888; cursor: pointer;}
