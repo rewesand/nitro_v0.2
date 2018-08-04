@@ -1,2 +1,6 @@
-/cgi-bin
-robots.txt
+/js/jquery.js
+/favicon.ico
+/robots.txt
+/index.php
+/.htaccess
+/.htpasswd
