@@ -3,18 +3,17 @@
 return array
 (
 
-	'use'=>'databox',
+	'use'=>'default',
 
-	'databox' => array
+	'default' => array
 	(
-		'type'       => 'mysql',
 		'hostname'   => 'localhost',
-		'database'   => 'databox',
-		'username'   => 'u_databox',
-		'password'   => 'hpCE0qHe',
+		'database'   => 'database',
+		'username'   => 'user_name',
+		'password'   => 'pass',
 		'table_prefix' => '',
 		'charset'      => 'utf8',
-		'caching'      => FALSE,
-		'profiling'    => TRUE,
+		'caching'      => TRUE,
+		'profiling'    => FALSE,
 	),
 );
