@@ -92,7 +92,13 @@ function dbg_last_error() {
 		ob_get_level() AND ob_clean();
 		// Start an output buffer
 		ob_start();
-		if ($view_file = findFile('Views', 'error')){
+		if (SITE_MODE == 'DEV'){
+			$error_view = 'error';
+		}
+		else {
+			$error_view = 'Page404';
+		}
+		if ($view_file = findFile('Views', $error_view)){
 			extract($error);
 			$code = 500;
 			$trace = debug_backtrace();
@@ -115,7 +121,13 @@ function dbg_last_error() {
 
 function error_dispetcher($code, $error, $file = NULL, $line = NULL, $args = NULL){
 	if (error_reporting() & $code){
-		if ($view_file = findFile('Views', 'error')){
+		if (SITE_MODE == 'DEV'){
+			$error_view = 'error';
+		}
+		else {
+			$error_view = 'Page404';
+		}
+		if ($view_file = findFile('Views', error_view)){
 			$type = 1;
 			$message = $error;
 			$trace = debug_backtrace();

@@ -8,6 +8,8 @@ class Index extends \FrontController {
 		
 		$model = new \Model\Test('test');
 		
+		echo $m->ggg();
+		
 		$this->content = \View::factory('Index');
 	}
 	

@@ -7,6 +7,7 @@ return array
 
 	'default' => array
 	(
+		'type'		 => 'mysql',
 		'hostname'   => 'localhost',
 		'database'   => 'database',
 		'username'   => 'user_name',

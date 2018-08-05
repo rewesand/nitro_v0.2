@@ -42,7 +42,7 @@
 		<div id="main-menu">	
 			<ul class="main-menu-items">
 				<li><a href="/">Главная</a></li>
-				<li><a href="/blog">Топики</a></li>
+				<li><a href="/blog">Блоги</a></li>
 				<li><a href="/my">О нас</a></li>
 			</ul>
 		</div>

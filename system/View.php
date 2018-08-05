@@ -139,7 +139,7 @@ class View {
         return $string;
     }
     
-    public static function format_date($date = false, $seek = false, $show_time = true){
+    public static function formatDate($date = false, $seek = false, $show_time = true){
         if ($date = (int) $date){
             $res = $date;
             $now = View::$_time_now;
